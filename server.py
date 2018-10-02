@@ -36,6 +36,12 @@ def postJsonHandler():
     
     return 'JSON posted'
 
+#test json to be sent
+#     { "device":"TemperatureSensor", 
+#  "value":"20", 
+#  "timestamp":"25/01/2017 10:10:05" 
+# }
+
 
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
